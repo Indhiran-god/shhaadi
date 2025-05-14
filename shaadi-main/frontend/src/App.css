@@ -1,0 +1,25 @@
+.mobile-app-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Additional styles for your app container */
+
+.content {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 60px; /* Space for bottom navigation if needed */
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  .mobile-app-container {
+    padding: 0;
+  }
+}
